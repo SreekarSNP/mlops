@@ -5,10 +5,10 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 variables:
-  resourcegroup: 'SnpMLOpsRG'
-  workspace: 'mlopsws'
+  resourcegroup: 'powerbirg'
+  workspace: 'EP_ML_DEV'
   experiment: 'snp-workshop'
-  aml_compute_target: 'gpucluster01'
+  aml_compute_target: 'cpucluster01'
   model_name: 'classifier_rf'
   image_name: 'classifier-rf-image-1'
   service_connection: 'snp-mlws-service-conn'
